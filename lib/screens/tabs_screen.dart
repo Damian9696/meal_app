@@ -4,6 +4,9 @@ import 'package:flutter_complete_guide/screens/favorites_screen.dart';
 import 'package:flutter_complete_guide/widgets/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
+
+  static const routeName = '/';
+
   @override
   _TabsScreenState createState() => _TabsScreenState();
 }
